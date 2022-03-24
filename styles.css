@@ -1,0 +1,116 @@
+*{
+    padding: 0;  
+    margin: 0;
+    box-sizing: border-box;
+}
+ body{
+     font-family: Arial, Helvetica, sans-serif;
+ }  
+  header{
+      background-color: #000000;
+  }
+  li{
+      list-style: none;
+  }
+  a{
+      color: #fff;
+      text-decoration: none;
+  }
+  
+  .navbar{
+      min-height: 70px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 24px;
+  }
+  .nav-menu{  
+      display: flex;
+      justify-content: space-between;
+      gap: 40px;
+      font-size: larger;
+      font-weight: 700;
+  }
+  .nav-link{
+     transition: 0.7s ease; 
+  }
+  
+  .nav-link:hover{
+      color: #00D782;
+  }
+  
+  @media(max-width:1000px){
+      .hamburger{
+          display: none;
+          cursor: pointer;
+      }
+  }
+ 
+  @media(max-width:768px){
+    .bar{
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        border-radius: 5px;
+        -webkit-transition: all 0.3 ease-in-out;
+        transition: all 0.3s ease-in-out;
+        background-color: rgb(255, 255, 255);
+    }
+    .bar2{
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        border-radius: 5px;
+        margin-left: 9px;
+        cursor: pointer;
+        -webkit-transition: all 0.3 ease-in-out;
+        transition: all 0.3 ease-in-out;
+        background-color: rgb(255, 255, 255);
+    }
+     
+     
+      .dash{
+          transform: rotate(89deg);
+      }
+      .hamburger{
+          display: block;
+          cursor: pointer;
+      }
+      
+      .hamburger.active .bar2:nth-child(2){
+          opacity: 0;
+      }
+      .hamburger.active .bar:nth-child(1){
+          transform: translateY(8px) rotate(45deg);
+          transition: all 0.3s ease-in-out;
+  
+      }
+      .hamburger.active .bar:nth-child(3){
+          transform: translateY(-8px) rotate(-45deg);
+          transition: all 0.3s ease-in-out;
+      }
+  
+      .nav-menu{
+          position: fixed;
+          left: -100%;
+          top: 70px;
+          gap: 0;
+          flex-direction: column;
+          background-color: #000000;
+          width: 100%;
+          text-align: center;
+          transition:0.3s ;
+      }
+  
+      .nav-item{
+          margin: 16px 0;
+      }
+  
+      .nav-menu.active {
+          left: 0;
+      }
+  }
+  /*  */
+
