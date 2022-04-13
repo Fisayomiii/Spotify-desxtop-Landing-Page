@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.lXGct {
+    text-align: center;
+}
+#form{
+    padding-top: 5em;
+}
+#form h1{
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    padding-top: 0.5em;
+    font-size: 23pt;
+    margin-bottom: 0.5em;
+    transition: 0.7s ease; 
+}
+.face-button{
+    background-image: url(./59b5bb466dbe923c39853e00.png);
+    max-width: 360px;
+    width: 100%;
+    height: 3em;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 900;
+    color: #ffffff;
+    background-color: #384F81;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 1em;
+    transition: 0.7s ease;
+}
+.face-button:hover{
+    transform: scale(95%);
+    transition: 0.7s ease; 
+}
+.google-button{
+    display: block;
+    max-width: 360px;
+    width: 100%;
+    height: 3em;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 900;
+    color: #2c2c2c;
+    border: 2px solid black;
+    cursor: pointer;
+    margin-bottom: 1em;
+    transition: 0.7s ease;
+    background-color: #ffffff;
+}
+.google-button:hover{
+    transform: scale(95%);
+    transition: 0.7s ease; 
+}
+.dHVBa-D {
+    display: table;
+    font-size: 16px;
+    line-height: 24px;
+    -webkit-letter-spacing: 2px;
+    -moz-letter-spacing: 2px;
+    -ms-letter-spacing: 2px;
+    letter-spacing: 2px;
+    margin: 0 auto 1em;
+    color: #7f7f7f;
+    position: relative;
+    text-align: center;
+    width: 85%;
+}
+.dHVBa-D:before, .dHVBa-D:after {
+    border-top: 1px solid #cccccc;
+    content: '';
+    display: table-cell;
+    position: relative;
+    top: 0.8em;
+    width: 42%;
+}
+/* #form input{
+    margin-top: 2em;
+    max-width: 360px;
+    width: 100%;
+    height: 5em;
+    font-size: 12px;
+} */
+.input-field{
+    max-width: 380px;
+    width: 150%;
+    height: 55px;
+    border: none;
+    background-color: #f0f0f0;
+    margin: 10px 0;
+    border-radius: 55px;
+    display: grid;  
+    grid-template-columns: 15% 85%;
+    padding: 0 0.4rem;
+    position: relative;
+}
+.input-field img{
+    padding-left: 1em;
+    padding-top: 1em;
+}
+.input-field input{
+    transition: all 0.5s;
+    background: none;
+    outline: none;
+    border: none;
+    line-height: 1;
+    font-weight: 900;
+    font-size: 1.4rem;
+    color: #333;
+}
+.input-field input:placeholder-shown{
+    color: rgb(71, 71, 71);
+    font-weight: 700;
+    text-transform: capitalize;
+}
+#form a{
+    color:#1ED760;
+}
+#form a:hover{
+    color:rgb(53, 189, 101);
+}
+.field{
+    max-width: 20px;
+    width: 20%;
+}
+.jAZzMT {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 2em;
+}
