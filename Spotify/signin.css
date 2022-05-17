@@ -1,0 +1,187 @@
+*{
+    box-sizing: border-box;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+body{
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 10px;
+}
+#form{
+    padding-top: 2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+}
+.face-button{
+    background-image: url(./59b5bb466dbe923c39853e00.png);
+    max-width: 360px;
+    width: 100%;
+    height: 3em;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 900;
+    color: #ffffff;
+    background-color: #384F81;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 0.5em;
+    transition: 0.7s ease;
+}
+.face-button:hover{
+    border: 1px solid black;
+    transform: scale(105%);
+    transition: 0.7s ease; 
+}
+.Apple-button{
+    background-image: url(./apple-icon.36286be565c1ca3ac9b60243f8e0a78b.svg);
+    background-position: 5rem;
+    background-repeat: no-repeat;
+    max-width: 360px;
+    width: 100%;
+    height: 3em;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 900;
+    color: #ffffff;
+    background-color: #000000;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 0.5em;
+    transition: 0.7s ease;
+}
+.Apple-button:hover{
+    transform: scale(105%);
+    transition: 0.7s ease; 
+    border: 1px solid black;
+}
+.google-button{
+    background-image: url(./google-icon.1cdc8fce9609d07f0e9d8d0bc4b61f8f.svg);
+    background-position: 3rem;
+    background-repeat: no-repeat;
+    max-width: 360px;
+    width: 100%;
+    height: 3em;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 900;
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    margin-bottom: 0.5em;
+    transition: 0.7s ease;
+}
+.google-button:hover{
+    border: 1px solid black;
+    transform: scale(105%);
+    transition: 0.7s ease; 
+}
+.Phone-button{
+    background-image: url(./59b5bb466dbe923c39853e00.png);
+    max-width: 360px;
+    width: 100%;
+    height: 3em;
+    border-radius: 20px;
+    border: 0.5px solid rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 900;
+    color: #000000;
+    background-color: #f0f0f0;
+    border: 0.px solid black;
+    cursor: pointer;
+    margin-bottom: 0.5em;
+    transition: 0.7s ease;
+}
+.Phone-button:hover{
+    border: 1px solid black;
+    transform: scale(105%);
+    transition: 0.7s ease; 
+}
+.dHVBa-D {
+    display: table;
+    font-size: 16px;
+    line-height: 24px;
+    -webkit-letter-spacing: 2px;
+    -moz-letter-spacing: 2px;
+    -ms-letter-spacing: 2px;
+    letter-spacing: 2px;
+    margin: 0 auto 1em;
+    color: #7f7f7f;
+    position: relative;
+    text-align: center;
+    width: 33%;
+}
+.dHVBa-D:before, .dHVBa-D:after {
+    border-top: 2px solid #c4c4c4;
+    content: '';
+    display: table-cell;
+    position: relative;
+    top: 0.8em;
+    width: 42%;
+}
+
+.input{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-transform: none;
+    letter-spacing: normal;
+}
+.input {
+    appearance: none;
+    background-image: none;
+    border: 0px;
+    display: block;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    max-width: 450px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 4px;
+    padding: 14px;
+    background-color: var(--background-base,#ffffff);
+    box-shadow: inset 0 0 0 1px var(--essential-subdued,#878787);
+    color: var(--text-base,#000000);
+}
+.input:hover{
+    border: 1px solid black;
+}
+.dNxnTN {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: end;
+    align-items: end;
+}
+ul{
+    list-style-type: none;
+    justify-content: center;
+    display: flex;
+    gap: 190px;
+}
+ul button{
+    cursor: pointer;
+    border: none;
+    background-color:#1ed760;
+    border-radius: 500px;
+    font-size: inherit;
+    padding: 14px 32px;
+}
+ul button:hover{
+    background-color:#11b84b;
+    transform: scale(105%);
+    transition: 0.7s ease-in-out; 
+}
+/*  */

@@ -5,6 +5,7 @@
 }
  body{
      font-family: Arial, Helvetica, sans-serif;
+     scroll-behavior: smooth;
  }  
   header{
       background-color: #000000;
@@ -152,8 +153,8 @@
     cursor: pointer;
 }
 .hJWOAl:hover {
-    border-radius: 30px;
-    border: 2px solid  hsl(141, 100%, 13%);
+    transform: scale(105%);
+    transition: 0.7s ease; 
     background-color: hsl(141, 100%, 36%);
 }
 @media (max-width: 800px){
@@ -355,6 +356,10 @@ a:hover{
     display: flex;
     margin-right: 1rem;
 }
+.socialimg :hover{
+    transform: scale(101%);
+    transition: 0.7s ease;
+} 
 
 @media (max-width: 1258px){
     footer{

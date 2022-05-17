@@ -10,7 +10,7 @@
 <body>
     <center>
         <section id="form">
-            <img src="./59b5bb466dbe923c39853e00.png" height="55" alt="">
+            <img src="./59b5bb466dbe923c39853e00.png" height="55" alt="Spotify Logo">
             <h1>Sign up for free to start listening.</h1>
             <button class="face-button">Sign Up with Facebook</button>
             <button class="google-button">Sign Up with Google</button>
@@ -20,37 +20,38 @@
             <img src="./free-mail-icon-142-thumb.png" height="47" alt="">
             <input type="email" placeholder="Enter your Email." id="em">
         </div>
-        <a href=""><h4  style="font-family:  spotify-circular, Helvetica, Arial, sans-serif;margin-left: -14em;">Use phone number instead.</h4></a>
+        <a href=""><h4  style="font-family:  spotify-circular, Helvetica, Arial, sans-serif;margin-left: -11em;">Use phone number instead.</h4></a>
         <br>
 
-        <h4  style="font-family:  spotify-circular, Helvetica, Arial, sans-serif;margin-left: -17em;">Confirm your email</h4>
+        <h4  style="font-family:  spotify-circular, Helvetica, Arial, sans-serif;margin-left: -14em;">Confirm your email</h4>
         <div class="input-field">
             <img src="./free-mail-icon-142-thumb.png" height="47" alt="">
             <input type="email" placeholder="Enter your Email again." id="em">
         </div>
 
-        <h4  style="font-family:  spotify-circular, Helvetica, Arial, sans-serif;margin-left: -17em;">Create a password</h4>
+        <h4  style="font-family:  spotify-circular, Helvetica, Arial, sans-serif;margin-left: -14em;">Create a password</h4>
         <div class="input-field">
             <img src="./Icon Password.png" height="47" alt="">
             <input type="password" placeholder="Create a password.">
         </div>
 
-        <h4 style="font-family:  spotify-circular, Helvetica, Arial, sans-serif;margin-left: -14em;">What should we call you?</h4>
+        <h4 style="font-family:  spotify-circular, Helvetica, Arial, sans-serif;margin-left: -11em;">What should we call you?</h4>
         <div class="input-field">
             <img src="./1-04-512.png" height="47" alt="">
             <input type="text" placeholder="Enter a Profile Name.">
         </div>
-        <h4 style="font-family:  spotify-circular, Helvetica, Arial, sans-serif;margin-left: -14em;">This appears on your profile</h4>
 
+        <!-- Date of birth -->
+        <h4 style="font-family:  spotify-circular, Helvetica, Arial, sans-serif;margin-left: -12em;">This appears on your profile</h4>
         <br>
-        <h4  style="font-family:  spotify-circular, Helvetica, Arial, sans-serif;margin-left: -15em;">What's your date of birth?</h4>
-        <div data-testid="dob-parent" class="Row-sc-1xvvf96-0 jAZzMT">
-            <div data-testid="day" class="Day__DayWrapper-sc-1h7mkij-0 gKcNYV">
-                <div class="Group-u9bcx5-0 bXxIjv Day___StyledFormGroup-sc-1h7mkij-1 dblmZq">
-                    <div class="LabelGroup-sc-1ibddrg-0 dudsKC">
-                        <label for="day" class="Label-sc-1c0cv3r-0 hyIrKV">Day</label>
+        <h4  style="font-family:  spotify-circular, Helvetica, Arial, sans-serif;margin-left: -12em;">What's your date of birth?</h4>
+        <div data-testid="dob-parent" class="jAZzMT">
+            <div data-testid="day" class="gKcNYV">
+                <div class="bXxIjv dblmZq">
+                    <div class="dudsKC">
+                        <label for="day" class="hyIrKV">Day</label>
                     </div>
-                    <input type="text" aria-invalid="false" id="day" inputmode="numeric" maxlength="2" name="day" pattern="((0?[1-9])|([12][0-9])|(3[01]))" placeholder="DD" required="" value="" class=" dwAQbF"></div>
+                    <input type="text" aria-invalid="false" id="day" inputmode="numeric" maxlength="2" name="day" pattern="((0?[1-9])|([12][0-9])|(3[01]))" placeholder="DD" required="" value="" class="dwAQbF"></div>
                 </div>
                 <div data-testid="month" class="uMRZZ">
                     <div class="bXxIjv bFSWxp">
@@ -84,6 +85,41 @@
                             <input type="text" aria-invalid="false" id="year"  maxlength="4" name="year"placeholder="YYYY" value="" class="dwAQbF"></div>
                         </div>
                     </div>
+                    <!-- gender radio -->
+                    <h4  style="font-family:  spotify-circular, Helvetica, Arial, sans-serif;margin-left: -14em; padding-bottom: 1em;">What's your gender?</h4>
+                    <div class="gMbjWa">
+                        <div class="Radio-tr5kfi-0 jVFMsq">
+                            <input type="radio" id="gender_option_male" name="gender" required="" value="male" aria-invalid="false" class="gFlgdt">
+                            <label for="gender_option_male" class="huGBCc">
+                                <span class="lfGOlT gXvRBb">Male</span>
+                            </label>
+                        </div>
+                        <div class="Radio-tr5kfi-0 jVFMsq">
+                            <input type="radio" id="gender_option_female" name="gender" required="" value="female" aria-invalid="false" class="gFlgdt">
+                            <label for="gender_option_female" class="huGBCc">
+                                <span class="iGJrKq"></span>
+                                <span class="gXvRBb">Female</span>
+                            </label>
+                        </div>
+                    </div>
+                    <!-- checkbox -->
+                    <div class="dstcKD">
+                        <input type="checkbox">
+                        <label>
+                            <span class="TextForLabel-sc-1jqya9m-0 ilbdbx"> I would prefer not to receive marketing messages from Spotify</span>
+                        </label>
+                    </div>
+                    <div class="dstcKD">
+                        <input type="checkbox">
+                        <label>
+                            <span class="TextForLabel-sc-1jqya9m-0 ilbdbx"> Share my registration data with Spotify's content providers for marketing purposes.</span>
+                        </label>
+                    </div>
+
+                    <h3 style="padding-bottom: 1em;">By clicking on sign-up, you agree to the <a href="">Spotify Terms and Conditions</a> and <a href="">Privacy Policy</a>.</h3>
+
+                    <input type="button" class="btn" value="Sign up">
+                    <h3 style="padding-bottom: 6em;">Have an account? <a href="signin.html">Log in</a>.</h3>
         </section>
     </center>
 </body>

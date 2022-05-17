@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
 }
 .lXGct {
     text-align: center;
@@ -32,7 +33,7 @@
     transition: 0.7s ease;
 }
 .face-button:hover{
-    transform: scale(95%);
+    transform: scale(105%);
     transition: 0.7s ease; 
 }
 .google-button{
@@ -51,7 +52,7 @@
     background-color: #ffffff;
 }
 .google-button:hover{
-    transform: scale(95%);
+    transform: scale(105%);
     transition: 0.7s ease; 
 }
 .dHVBa-D {
@@ -131,4 +132,49 @@
     justify-content: center;
     gap: 30px;
     padding-bottom: 2em;
+}
+.dwAQbF{
+    height: 4em;
+    width: 70%;
+    border-radius: 0.3rem;
+    border:1px solid black;
+}
+.goVqUE{
+    margin-left: -1.5em;
+    height: 4em;
+    width: 160%;
+    border-radius: 0.3rem;
+    border:1px solid black;
+}
+.gMbjWa {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding-bottom: 1em;
+}
+.dstcKD {
+    box-sizing: border-box;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    padding-bottom: 24px;
+}
+.btn{
+    max-width: 116px;
+    width: 100%;
+    height: 3em;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 900;
+    color: #ffffff;
+    background-color: #2db35b;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 1em;
+    transition: 0.7s ease;
+}
+.btn:hover{
+    transform: scale(105%);
+    background-color: #339756;
+    transition: 0.7s ease; 
 }
